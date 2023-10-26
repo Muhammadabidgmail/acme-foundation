@@ -49,7 +49,7 @@ resource "tfe_workspace" "shared-vpc-networking-stg" {
   ]
   vcs_repo {
     identifier     = var.github_repo
-    oauth_token_id = data.tfe_oauth_client.client.oauth_token_id
+    oauth_token_id = data.tfe_oauth_client.cclient.oauth_token_id
   }
 }
 
