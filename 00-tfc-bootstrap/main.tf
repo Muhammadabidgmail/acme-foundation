@@ -1,4 +1,4 @@
-data "tfe_oauth_client" "client" {
+data "tfe_oauth_client" "cclient" {
   organization = var.tfc_organization
   name         = var.github_oauth_client
 }
