@@ -1,10 +1,10 @@
-bootstrap_folder_name = "ABAC-TFC-bootstrap"
+bootstrap_folder_name = "TFCORG-TFC-bootstrap"
 folders = {
-  admin  = "abac-admin"
-  dev    = "abac-dev",
-  stg    = "abac-stg",
-  prd    = "abac-prd",
-  shared = "abac-shared-services"
+  admin  = "tfcorg-admin"
+  dev    = "tfcorg-dev",
+  stg    = "tfcorg-stg",
+  prd    = "tfcorg-prd",
+  shared = "tfcorg-shared-services"
 }
 terraform_service_accounts = {
   "tf-admin" = {
