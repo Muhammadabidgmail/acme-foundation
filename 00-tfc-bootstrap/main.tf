@@ -93,3 +93,7 @@ resource "tfe_variable" "tfc_gcp_workload_provider_id" {
   description     = "The ID of the workload identity pool provider."
 }
 
+resource "google_folder" "shared" {
+display_name = "Shared"
+parent       = data.google_organization.org.name
+}
