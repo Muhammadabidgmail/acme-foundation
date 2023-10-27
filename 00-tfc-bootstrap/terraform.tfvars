@@ -1,10 +1,10 @@
-bootstrap_folder_name = "abcdef-TFC-bootstrap"
+bootstrap_folder_name = "info-TFC-bootstrap"
 folders = {
-  admin  = "abcdef-acme-admin"
-  dev    = "abcdef-acme-dev",
-  stg    = "abcdef-acme-stg",
-  prd    = "abcdef-acme-prd",
-  shared = "abcdef-acme-shared-services"
+  admin  = "info-acme-admin"
+  dev    = "info-acme-dev",
+  stg    = "info-acme-stg",
+  prd    = "info-acme-prd",
+  shared = "info-acme-shared-services"
 }
 terraform_service_accounts = {
   "tf-admin" = {
