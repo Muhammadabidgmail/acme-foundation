@@ -43,7 +43,7 @@ module "destination_bucket_org" {
 module "log_export_billing" {
   source                 = "terraform-google-modules/log-export/google"
   destination_uri        = module.destination_bucket_billing.destination_uri
-  log_sink_name          = "billing_logsink"
+  log_sink_name          = "billing_logsink-shahee"
   parent_resource_id     = var.billing_account_id
   parent_resource_type   = "billing_account"
   unique_writer_identity = true
