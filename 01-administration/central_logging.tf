@@ -3,7 +3,7 @@ module "log_export_org" {
   version                = "~> 7.4.2"
   destination_uri        = module.destination_logbucket_org.destination_uri
   filter                 = var.audit_log_filter
-  log_sink_name          = "logbucket_org_${random_string.suffix.result}"
+  log_sink_name          = "logbucket_org_shahee${random_string.suffix.result}"
   parent_resource_id     = var.org_id
   parent_resource_type   = "organization"
   unique_writer_identity = true
