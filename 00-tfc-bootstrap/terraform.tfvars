@@ -1,10 +1,10 @@
-bootstrap_folder_name = "Shahee-TFC-bootstrap"
+bootstrap_folder_name = "TFC-bootstrap"
 folders = {
-  admin  = "shahee-admin"
-  dev    = "shahee-dev",
-  stg    = "shahee-stg",
-  prd    = "shahee-prd",
-  shared = "shahee-shared-services"
+  admin  = "admin"
+  dev    = "dev",
+  stg    = "stg",
+  prd    = "prd",
+  shared = "shared-services"
 }
 terraform_service_accounts = {
   "tf-admin" = {
